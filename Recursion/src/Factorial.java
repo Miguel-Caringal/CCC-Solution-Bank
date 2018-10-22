@@ -16,9 +16,9 @@ public class Factorial {
 
     public static void main(String[] args) {
         int output;
-        Scanner reader = new Scanner(System.in);  // Reading from System.in
+        Scanner reader = new Scanner(System.in);
         System.out.println("Enter a number: ");
-        int n = reader.nextInt(); // Scans the next token of the input as an int.
+        int n = reader.nextInt();
         output = factorial (n);
         reader.close();
         System.out.println(output);
