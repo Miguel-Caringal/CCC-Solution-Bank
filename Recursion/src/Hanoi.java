@@ -18,8 +18,7 @@ public class Hanoi {
         Scanner reader = new Scanner(System.in);
         System.out.println("Enter a number: ");
         int n = reader.nextInt();
-        output = Hanoi (n);
+        Hanoi (n);
         reader.close();
-        System.out.println(output);
     }
 }
